@@ -6,7 +6,7 @@ terraform {
         }
     }
     backend "azurerm" {
-        resource_group_name = "staterg"
+        resource_group_name = "testrg"
         storage_account_name = "storageforstatefile123"
         container_name = "statefilekafolder"
         key = "infrastructure.tfstate"
