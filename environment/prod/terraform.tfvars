@@ -4,7 +4,7 @@ resource_groups={
         location="central india"
     }
     rg2={
-        name="ashishsinghrg"
+        name="ashishsinghrg2"
         location="central india"
 }
 
