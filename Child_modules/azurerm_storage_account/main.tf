@@ -7,12 +7,5 @@ resource "azurerm_storage_account" "storage_accounts" {
   account_replication_type = each.value.account_replication_type
 }
 variable "storage_accounts" {
-  description = "A map of storage accounts to create"
-  type        = map(object({
-    name                     = string
-    resource_group_name      = string
-    location                 = string
-    account_tier             = string
-    account_replication_type = string
-  }))
+  
 }

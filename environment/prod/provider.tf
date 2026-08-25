@@ -6,10 +6,10 @@ terraform {
         }
     }
     backend "azurerm" {
-        resource_group_name = "testrg"
-        storage_account_name = "storageforstatefile123"
-        container_name = "statefilekafolder"
-        key = "infrastructure.tfstate"
+        resource_group_name = "test1"
+        storage_account_name = "storageforstatefile2"
+        container_name = "folderforstatefile2"
+        key = "manya.tfstate"
           }
 }
 provider "azurerm" {
